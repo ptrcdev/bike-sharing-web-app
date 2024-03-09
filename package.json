@@ -1,6 +1,6 @@
 {
   "name": "bike-sharing",
-  "homepage": "https://ptrcdev.github.io/bike-sharing-app/build",
+  "homepage": "https://ptrcdev.github.io/bike-sharing-web-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
