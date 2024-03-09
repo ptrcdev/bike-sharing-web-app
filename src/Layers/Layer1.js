@@ -20,18 +20,16 @@ let DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
-function Layer2({ stations, handleMarkerClick }) {
-
-    return (
-
-        stations.map(station => (
-            <Marker key={station.id} data={station.id} position={[station.latitude, station.longitude]} eventHandlers={{
-                click: (e) => {
-                    handleMarkerClick(e.target.options.data)
-                }
-            }} />))
-
+function Layer1({ networks, handleMarkerClick }) {
+    return ( // renders all the markers in the correct place
+                networks.map(network => (
+                    <Marker key={network.id} data={network.id} position={[network.location.latitude, network.location.longitude]} eventHandlers={{
+                        click: (e) => {
+                            handleMarkerClick(e.target.options.data)
+                        }
+                    }}/>)) 
+            
     );
 }
 
-export default Layer2;
+export default Layer1;

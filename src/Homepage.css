@@ -1,0 +1,34 @@
+* {
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome > div {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.start {
+    font-size: 1.1em;
+    width: 150px;
+    height: auto;
+    background: none;
+    border: 1px solid navy;
+    border-radius: 20px;
+    padding: 10px 0px;
+    box-shadow: 2px 5px grey;
+}
+
+.start:hover {
+    transform: scale(1.1);
+}
