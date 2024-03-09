@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bike-sharing-app/static/css/main.f65e327a.css",
-    "main.js": "/bike-sharing-app/static/js/main.df8152a7.js",
-    "static/js/453.87152f18.chunk.js": "/bike-sharing-app/static/js/453.87152f18.chunk.js",
-    "index.html": "/bike-sharing-app/index.html",
-    "main.f65e327a.css.map": "/bike-sharing-app/static/css/main.f65e327a.css.map",
-    "main.df8152a7.js.map": "/bike-sharing-app/static/js/main.df8152a7.js.map",
-    "453.87152f18.chunk.js.map": "/bike-sharing-app/static/js/453.87152f18.chunk.js.map"
+    "main.css": "/bike-sharing-app/build/static/css/main.f65e327a.css",
+    "main.js": "/bike-sharing-app/build/static/js/main.f9370d46.js",
+    "static/js/453.87152f18.chunk.js": "/bike-sharing-app/build/static/js/453.87152f18.chunk.js",
+    "index.html": "/bike-sharing-app/build/index.html",
+    "main.f65e327a.css.map": "/bike-sharing-app/build/static/css/main.f65e327a.css.map",
+    "main.f9370d46.js.map": "/bike-sharing-app/build/static/js/main.f9370d46.js.map",
+    "453.87152f18.chunk.js.map": "/bike-sharing-app/build/static/js/453.87152f18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f65e327a.css",
-    "static/js/main.df8152a7.js"
+    "static/js/main.f9370d46.js"
   ]
 }
