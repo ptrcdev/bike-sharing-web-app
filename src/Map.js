@@ -9,7 +9,6 @@ import { faArrowLeft, faInfo } from '@fortawesome/free-solid-svg-icons';
 
 
 function Map() {
-
     const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -78,9 +77,9 @@ function Map() {
 
     function renderLayer() {
         if (currentLayer === 1 && data.networks) { // checks if we're on layer 1 and we were able to fetch all the networks
-            return <Layer1 networks={data.networks} handleMarkerClick={handleMarkerClick} />; // renders Layer1 markers
+            return <Layer1 networks={data.networks} handleMarkerClick={handleMarkerClick} dataTestId="layer1" />; // renders Layer1 markers
         } else if (currentLayer !== 1 && stations) { // layer 2 and 3 visually have the same markers. layer 3 is just the pop up
-            return <Layer2 network={clickedNetwork.network} stations={stations.network.stations} handleMarkerClick={handleMarkerClick}  />
+            return <Layer2 dataTestId="layer2" network={clickedNetwork.network} stations={stations.network.stations} handleMarkerClick={handleMarkerClick}  />
         }
     }
 

@@ -20,7 +20,7 @@ let DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
-function Layer1({ networks, handleMarkerClick }) {
+function Layer1({ networks, handleMarkerClick, dataTestId }) {
     return ( // renders all the markers in the correct place
                 networks.map(network => (
                     <Marker key={network.id} data={network.id} position={[network.location.latitude, network.location.longitude]} eventHandlers={{
